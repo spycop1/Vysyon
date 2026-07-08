@@ -1,15 +1,1 @@
-{
-  "name": "Vysyon Market Intelligence",
-  "short_name": "Vysyon",
-  "description": "Vysyon Market Intelligence Scanner with COT, price, macro overlay and AI Analyst.",
-  "start_url": "./",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#070b12",
-  "theme_color": "#070b12",
-  "icons": [
-    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ]
-}
+{"name":"Vysyon Mobile Snapshot","short_name":"Vysyon","start_url":"./","display":"standalone","background_color":"#070b12","theme_color":"#070b12","icons":[{"src":"./icons/icon-192.svg","sizes":"192x192","type":"image/svg+xml"},{"src":"./icons/icon-512.svg","sizes":"512x512","type":"image/svg+xml"}]}

@@ -1,42 +1,32 @@
-const CACHE_NAME = "vysyon-github-v3-shell-20260707";
-const APP_SHELL = [
-  "./",
-  "./index.html",
-  "./manifest.json",
-  "./github-adapter.js",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
-];
+const CACHE = 'vysyon-mobile-snapshot-viewer-v2';
+const ASSETS = ['./', './index.html', './manifest.json', './icons/icon-192.svg', './icons/icon-512.svg'];
 
-self.addEventListener("install", event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE)
+      .then(cache => cache.addAll(ASSETS))
+      .then(() => self.skipWaiting())
+  );
 });
 
-self.addEventListener("activate", event => {
+self.addEventListener('activate', event => {
   event.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k))))
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });
 
-self.addEventListener("fetch", event => {
-  const req = event.request;
-  const url = new URL(req.url);
+self.addEventListener('fetch', event => {
+  const url = new URL(event.request.url);
 
-  // Never cache external market/API calls. They must stay fresh.
-  if (url.origin !== self.location.origin) return;
-
-  // App shell: cache first, then network. For HTML, try network first so GitHub updates arrive quickly.
-  if (req.mode === "navigate" || url.pathname.endsWith("/index.html") || url.pathname.endsWith("/")) {
-    event.respondWith(
-      fetch(req).then(res => {
-        const copy = res.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put("./index.html", copy));
-        return res;
-      }).catch(() => caches.match("./index.html"))
-    );
+  // Wichtig: Snapshot niemals dauerhaft cachen. Immer frisch von GitHub Pages laden.
+  if (url.pathname.endsWith('/data/latest-scan.json')) {
+    event.respondWith(fetch(event.request, { cache: 'no-store' }));
     return;
   }
 
-  event.respondWith(caches.match(req).then(cached => cached || fetch(req)));
+  event.respondWith(
+    caches.match(event.request).then(cached => cached || fetch(event.request))
+  );
 });
