@@ -1,6 +1,6 @@
 {
   "schemaVersion": "vysyon-mobile-snapshot-v1",
-  "createdAt": "2026-07-16T05:15:40.790Z",
+  "createdAt": "2026-07-16T06:51:15.394Z",
   "analysisDate": "2026-07-16",
   "source": "Vysyon PC EXE / preserved local calculation",
   "status": {
@@ -12,9 +12,9 @@
     "macro": "Mixed Macro"
   },
   "breadth": {
-    "buyCount": 11,
+    "buyCount": 13,
     "sellCount": 8,
-    "waitCount": 32,
+    "waitCount": 30,
     "total": 51
   },
   "macroContext": {
@@ -250,6 +250,180 @@
             "ma50": 70
           },
           "macro": null,
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "CRYPTO:Bitcoin",
+      "name": "Bitcoin",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+0.91% · Above 20D",
+      "reason": "Price 78/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": {
+        "score": 32,
+        "tier": "D"
+      },
+      "price": {
+        "source": "BTC/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 64712,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 62260,
+        "ma50": 64113
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "1 BUY / 0 SELL / 0 WAIT",
+        "agreement": 100,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "CRYPTO:Bitcoin",
+          "name": "Bitcoin",
+          "category": "Crypto",
+          "signal": "BUY",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 70,
+          "macroScore": 61,
+          "psi": null,
+          "timing": "+0.91% · Above 20D",
+          "reason": "Price 78/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+          "referenceChain": "Crypto price-only + macro liquidity chain",
+          "sourceType": "crypto_price_only",
+          "cotApplicable": false,
+          "confidenceCap": 65,
+          "sourceQuality": {
+            "score": 32,
+            "tier": "D"
+          },
+          "price": {
+            "source": "BTC/USD crypto spot via Yahoo chart",
+            "date": "2026-07-15",
+            "close": 64712,
+            "momentum5": 1,
+            "above20": true,
+            "above50": true,
+            "ma20": 62260,
+            "ma50": 64113
+          },
+          "macro": {
+            "score": 61,
+            "bias": "Macro Bullish",
+            "regime": "Mixed Macro",
+            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "CRYPTO:Ethereum",
+      "name": "Ethereum",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 99,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+6.75% · Above 20D",
+      "reason": "Price 100/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": {
+        "score": 32,
+        "tier": "D"
+      },
+      "price": {
+        "source": "ETH/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 1917,
+        "momentum5": 7,
+        "above20": true,
+        "above50": true,
+        "ma20": 1727,
+        "ma50": 1747
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "1 BUY / 0 SELL / 0 WAIT",
+        "agreement": 100,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "CRYPTO:Ethereum",
+          "name": "Ethereum",
+          "category": "Crypto",
+          "signal": "BUY",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 99,
+          "macroScore": 61,
+          "psi": null,
+          "timing": "+6.75% · Above 20D",
+          "reason": "Price 100/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+          "referenceChain": "Crypto price-only + macro liquidity chain",
+          "sourceType": "crypto_price_only",
+          "cotApplicable": false,
+          "confidenceCap": 65,
+          "sourceQuality": {
+            "score": 32,
+            "tier": "D"
+          },
+          "price": {
+            "source": "ETH/USD crypto spot via Yahoo chart",
+            "date": "2026-07-15",
+            "close": 1917,
+            "momentum5": 7,
+            "above20": true,
+            "above50": true,
+            "ma20": 1727,
+            "ma50": 1747
+          },
+          "macro": {
+            "score": 61,
+            "bias": "Macro Bullish",
+            "regime": "Mixed Macro",
+            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
           "contractCount": 1,
           "consensus": null
         }
@@ -1471,156 +1645,6 @@
           "consensus": null
         }
       ]
-    },
-    {
-      "asset": "SYNTH:EUR/JPY",
-      "name": "EUR/JPY",
-      "category": "FX",
-      "signal": "SELL",
-      "score": 73,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 28,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "JPY COT strength exceeds EUR and price confirms · Derived from EUR strength 55 minus JPY strength 98. · Synthetic FX spread · COT: not applicable",
-      "referenceChain": "Synthetic FX cross: two COT currency-strength legs + own price timing",
-      "sourceType": "synthetic_cross",
-      "cotApplicable": false,
-      "confidenceCap": 74,
-      "sourceQuality": {
-        "score": 40,
-        "tier": "D"
-      },
-      "price": {
-        "source": "EUR/JPY direct fallback via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 176,
-        "ma50": 181
-      },
-      "macro": null,
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 1 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "SYNTH:EUR/JPY",
-          "name": "EUR/JPY",
-          "category": "FX",
-          "signal": "SELL",
-          "score": 73,
-          "cotScore": null,
-          "priceScore": 0,
-          "macroScore": 28,
-          "psi": null,
-          "timing": "-100.00% · Below 20D",
-          "reason": "JPY COT strength exceeds EUR and price confirms · Derived from EUR strength 55 minus JPY strength 98. · Synthetic FX spread · COT: not applicable",
-          "referenceChain": "Synthetic FX cross: two COT currency-strength legs + own price timing",
-          "sourceType": "synthetic_cross",
-          "cotApplicable": false,
-          "confidenceCap": 74,
-          "sourceQuality": {
-            "score": 40,
-            "tier": "D"
-          },
-          "price": {
-            "source": "EUR/JPY direct fallback via Yahoo chart",
-            "date": "2026-07-15",
-            "close": 0,
-            "momentum5": -100,
-            "above20": false,
-            "above50": false,
-            "ma20": 176,
-            "ma50": 181
-          },
-          "macro": null,
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "SYNTH:EUR/AUD",
-      "name": "EUR/AUD",
-      "category": "FX",
-      "signal": "SELL",
-      "score": 70,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 28,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "AUD COT strength exceeds EUR and price confirms · Derived from EUR strength 55 minus AUD strength 98. · Synthetic FX spread · COT: not applicable",
-      "referenceChain": "Synthetic FX cross: two COT currency-strength legs + own price timing",
-      "sourceType": "synthetic_cross",
-      "cotApplicable": false,
-      "confidenceCap": 70,
-      "sourceQuality": {
-        "score": 40,
-        "tier": "D"
-      },
-      "price": {
-        "source": "EUR/AUD direct fallback via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 2,
-        "ma50": 2
-      },
-      "macro": null,
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 1 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "SYNTH:EUR/AUD",
-          "name": "EUR/AUD",
-          "category": "FX",
-          "signal": "SELL",
-          "score": 70,
-          "cotScore": null,
-          "priceScore": 0,
-          "macroScore": 28,
-          "psi": null,
-          "timing": "-100.00% · Below 20D",
-          "reason": "AUD COT strength exceeds EUR and price confirms · Derived from EUR strength 55 minus AUD strength 98. · Synthetic FX spread · COT: not applicable",
-          "referenceChain": "Synthetic FX cross: two COT currency-strength legs + own price timing",
-          "sourceType": "synthetic_cross",
-          "cotApplicable": false,
-          "confidenceCap": 70,
-          "sourceQuality": {
-            "score": 40,
-            "tier": "D"
-          },
-          "price": {
-            "source": "EUR/AUD direct fallback via Yahoo chart",
-            "date": "2026-07-15",
-            "close": 0,
-            "momentum5": -100,
-            "above20": false,
-            "above50": false,
-            "ma20": 2,
-            "ma50": 2
-          },
-          "macro": null,
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
     }
   ],
   "signals": [
@@ -1844,6 +1868,180 @@
             "ma50": 70
           },
           "macro": null,
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "CRYPTO:Bitcoin",
+      "name": "Bitcoin",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+0.91% · Above 20D",
+      "reason": "Price 78/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": {
+        "score": 32,
+        "tier": "D"
+      },
+      "price": {
+        "source": "BTC/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 64712,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 62260,
+        "ma50": 64113
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "1 BUY / 0 SELL / 0 WAIT",
+        "agreement": 100,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "CRYPTO:Bitcoin",
+          "name": "Bitcoin",
+          "category": "Crypto",
+          "signal": "BUY",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 70,
+          "macroScore": 61,
+          "psi": null,
+          "timing": "+0.91% · Above 20D",
+          "reason": "Price 78/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+          "referenceChain": "Crypto price-only + macro liquidity chain",
+          "sourceType": "crypto_price_only",
+          "cotApplicable": false,
+          "confidenceCap": 65,
+          "sourceQuality": {
+            "score": 32,
+            "tier": "D"
+          },
+          "price": {
+            "source": "BTC/USD crypto spot via Yahoo chart",
+            "date": "2026-07-15",
+            "close": 64712,
+            "momentum5": 1,
+            "above20": true,
+            "above50": true,
+            "ma20": 62260,
+            "ma50": 64113
+          },
+          "macro": {
+            "score": 61,
+            "bias": "Macro Bullish",
+            "regime": "Mixed Macro",
+            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "CRYPTO:Ethereum",
+      "name": "Ethereum",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 99,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+6.75% · Above 20D",
+      "reason": "Price 100/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": {
+        "score": 32,
+        "tier": "D"
+      },
+      "price": {
+        "source": "ETH/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 1917,
+        "momentum5": 7,
+        "above20": true,
+        "above50": true,
+        "ma20": 1727,
+        "ma50": 1747
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "1 BUY / 0 SELL / 0 WAIT",
+        "agreement": 100,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "CRYPTO:Ethereum",
+          "name": "Ethereum",
+          "category": "Crypto",
+          "signal": "BUY",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 99,
+          "macroScore": 61,
+          "psi": null,
+          "timing": "+6.75% · Above 20D",
+          "reason": "Price 100/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+          "referenceChain": "Crypto price-only + macro liquidity chain",
+          "sourceType": "crypto_price_only",
+          "cotApplicable": false,
+          "confidenceCap": 65,
+          "sourceQuality": {
+            "score": 32,
+            "tier": "D"
+          },
+          "price": {
+            "source": "ETH/USD crypto spot via Yahoo chart",
+            "date": "2026-07-15",
+            "close": 1917,
+            "momentum5": 7,
+            "above20": true,
+            "above50": true,
+            "ma20": 1727,
+            "ma50": 1747
+          },
+          "macro": {
+            "score": 61,
+            "bias": "Macro Bullish",
+            "regime": "Mixed Macro",
+            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
           "contractCount": 1,
           "consensus": null
         }
@@ -6092,180 +6290,6 @@
       ]
     },
     {
-      "asset": "CRYPTO:Bitcoin",
-      "name": "Bitcoin",
-      "category": "Crypto",
-      "signal": "WAIT",
-      "score": 42,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 61,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Crypto price-only + macro liquidity chain",
-      "sourceType": "crypto_price_only",
-      "cotApplicable": false,
-      "confidenceCap": 65,
-      "sourceQuality": {
-        "score": 32,
-        "tier": "D"
-      },
-      "price": {
-        "source": "BTC/USD crypto spot via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 59024,
-        "ma50": 62818
-      },
-      "macro": {
-        "score": 61,
-        "bias": "Macro Bullish",
-        "regime": "Mixed Macro",
-        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 0 SELL / 1 WAIT",
-        "agreement": 0,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "CRYPTO:Bitcoin",
-          "name": "Bitcoin",
-          "category": "Crypto",
-          "signal": "WAIT",
-          "score": 42,
-          "cotScore": null,
-          "priceScore": 0,
-          "macroScore": 61,
-          "psi": null,
-          "timing": "-100.00% · Below 20D",
-          "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Crypto price-only + macro liquidity chain",
-          "sourceType": "crypto_price_only",
-          "cotApplicable": false,
-          "confidenceCap": 65,
-          "sourceQuality": {
-            "score": 32,
-            "tier": "D"
-          },
-          "price": {
-            "source": "BTC/USD crypto spot via Yahoo chart",
-            "date": "2026-07-15",
-            "close": 0,
-            "momentum5": -100,
-            "above20": false,
-            "above50": false,
-            "ma20": 59024,
-            "ma50": 62818
-          },
-          "macro": {
-            "score": 61,
-            "bias": "Macro Bullish",
-            "regime": "Mixed Macro",
-            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "CRYPTO:Ethereum",
-      "name": "Ethereum",
-      "category": "Crypto",
-      "signal": "WAIT",
-      "score": 42,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 61,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Crypto price-only + macro liquidity chain",
-      "sourceType": "crypto_price_only",
-      "cotApplicable": false,
-      "confidenceCap": 65,
-      "sourceQuality": {
-        "score": 32,
-        "tier": "D"
-      },
-      "price": {
-        "source": "ETH/USD crypto spot via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 1631,
-        "ma50": 1709
-      },
-      "macro": {
-        "score": 61,
-        "bias": "Macro Bullish",
-        "regime": "Mixed Macro",
-        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 0 SELL / 1 WAIT",
-        "agreement": 0,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "CRYPTO:Ethereum",
-          "name": "Ethereum",
-          "category": "Crypto",
-          "signal": "WAIT",
-          "score": 42,
-          "cotScore": null,
-          "priceScore": 0,
-          "macroScore": 61,
-          "psi": null,
-          "timing": "-100.00% · Below 20D",
-          "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Crypto price-only + macro liquidity chain",
-          "sourceType": "crypto_price_only",
-          "cotApplicable": false,
-          "confidenceCap": 65,
-          "sourceQuality": {
-            "score": 32,
-            "tier": "D"
-          },
-          "price": {
-            "source": "ETH/USD crypto spot via Yahoo chart",
-            "date": "2026-07-15",
-            "close": 0,
-            "momentum5": -100,
-            "above20": false,
-            "above50": false,
-            "ma20": 1631,
-            "ma50": 1709
-          },
-          "macro": {
-            "score": 61,
-            "bias": "Macro Bullish",
-            "regime": "Mixed Macro",
-            "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
       "asset": "PRICE:MSCI Emerging Markets",
       "name": "MSCI Emerging Markets",
       "category": "Indices",
@@ -6886,6 +6910,80 @@
         "ma50": 23
       },
       "macro": null,
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "CRYPTO:Bitcoin",
+      "name": "Bitcoin",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+0.91% · Above 20D",
+      "reason": "Price 78/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": null,
+      "price": {
+        "source": "BTC/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 64712,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 62260,
+        "ma50": 64113
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "CRYPTO:Ethereum",
+      "name": "Ethereum",
+      "category": "Crypto",
+      "signal": "BUY",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 99,
+      "macroScore": 61,
+      "psi": null,
+      "timing": "+6.75% · Above 20D",
+      "reason": "Price 100/100 + Macro 61/100 aligned bullish · Mixed Macro · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": null,
+      "price": {
+        "source": "ETH/USD crypto spot via Yahoo chart",
+        "date": "2026-07-15",
+        "close": 1917,
+        "momentum5": 7,
+        "above20": true,
+        "above50": true,
+        "ma20": 1727,
+        "ma50": 1747
+      },
+      "macro": {
+        "score": 61,
+        "bias": "Macro Bullish",
+        "regime": "Mixed Macro",
+        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
       "contractCount": 1,
       "consensus": null
     },
@@ -8782,80 +8880,6 @@
         "ma50": 511
       },
       "macro": null,
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "CRYPTO:Bitcoin",
-      "name": "Bitcoin",
-      "category": "Crypto",
-      "signal": "WAIT",
-      "score": 42,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 61,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Crypto price-only + macro liquidity chain",
-      "sourceType": "crypto_price_only",
-      "cotApplicable": false,
-      "confidenceCap": 65,
-      "sourceQuality": null,
-      "price": {
-        "source": "BTC/USD crypto spot via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 59024,
-        "ma50": 62818
-      },
-      "macro": {
-        "score": 61,
-        "bias": "Macro Bullish",
-        "regime": "Mixed Macro",
-        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-      },
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "CRYPTO:Ethereum",
-      "name": "Ethereum",
-      "category": "Crypto",
-      "signal": "WAIT",
-      "score": 42,
-      "cotScore": null,
-      "priceScore": 0,
-      "macroScore": 61,
-      "psi": null,
-      "timing": "-100.00% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 0/100 · Macro 61/100 · Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Crypto price-only + macro liquidity chain",
-      "sourceType": "crypto_price_only",
-      "cotApplicable": false,
-      "confidenceCap": 65,
-      "sourceQuality": null,
-      "price": {
-        "source": "ETH/USD crypto spot via Yahoo chart",
-        "date": "2026-07-15",
-        "close": 0,
-        "momentum5": -100,
-        "above20": false,
-        "above50": false,
-        "ma20": 1631,
-        "ma50": 1709
-      },
-      "macro": {
-        "score": 61,
-        "bias": "Macro Bullish",
-        "regime": "Mixed Macro",
-        "reason": "Macro Bullish: Crypto liquidity blend: USD relief + rates relief + risk-on. Energy relief · Growth/risk tone supportive · Risk-on confirmation.",
-        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-      },
       "contractCount": 1,
       "consensus": null
     },
