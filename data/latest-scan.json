@@ -1,6 +1,6 @@
 {
   "schemaVersion": "vysyon-mobile-snapshot-v1",
-  "createdAt": "2026-07-22T10:09:31.874Z",
+  "createdAt": "2026-07-22T14:56:47.058Z",
   "analysisDate": "2026-07-22",
   "source": "Vysyon PC EXE / preserved local calculation",
   "status": {
@@ -9,27 +9,26 @@
     "grouped": 30,
     "priceFeedOk": 45,
     "priceFeedTotal": 53,
-    "macro": "Dollar Squeeze",
-    "directFxLoaded": 0,
-    "directFxTotal": 0
+    "macro": "Dollar Squeeze"
   },
   "breadth": {
-    "buyCount": 7,
+    "buyCount": 4,
     "sellCount": 9,
-    "waitCount": 35,
+    "waitCount": 38,
     "total": 51
   },
   "macroContext": {
     "available": true,
     "regime": "Dollar Squeeze",
-    "reason": "USD pressure high · Energy relief · Risk-on confirmation",
+    "reason": "USD pressure high · Risk-on confirmation",
     "dollarPressure": 75,
     "ratesPressure": 50,
-    "energyPressure": 9,
-    "inflationPressure": 9,
+    "energyPressure": 50,
+    "inflationPressure": 50,
     "growthScore": 50,
     "riskOnScore": 65,
     "diagnostics": [
+      "WTI: Alpha Vantage macro info: We have detected your API key as 5YERS47KZCS75EKS and our standard API rate limit is 25 reques",
       "Brent: Alpha Vantage macro info: We have detected your API key as 5YERS47KZCS75EKS and our standard API rate limit is 25 reques",
       "Natural Gas: Alpha Vantage macro info: We have detected your API key as 5YERS47KZCS75EKS and our standard API rate limit is 25 reques",
       "10Y Treasury: Alpha Vantage macro info: We have detected your API key as 5YERS47KZCS75EKS and our standard API rate limit is 25 reques",
@@ -300,267 +299,6 @@
       ]
     },
     {
-      "asset": "PRICE:EuroStoxx 50",
-      "name": "EuroStoxx 50",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 67,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.41% · Above 20D",
-      "reason": "Price 75/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "EuroStoxx ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 68,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 68,
-        "ma50": 68
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:EuroStoxx 50",
-          "name": "EuroStoxx 50",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 64,
-          "cotScore": null,
-          "priceScore": 67,
-          "macroScore": 60,
-          "psi": null,
-          "timing": "+0.41% · Above 20D",
-          "reason": "Price 75/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 64,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "EuroStoxx ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 68,
-            "momentum5": 0,
-            "above20": true,
-            "above50": true,
-            "ma20": 68,
-            "ma50": 68
-          },
-          "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Europe equity blend: rates + energy + global risk tone"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:FTSE 100",
-      "name": "FTSE 100",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 70,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.99% · Above 20D",
-      "reason": "Price 78/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "FTSE ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 47,
-        "momentum5": 1,
-        "above20": true,
-        "above50": true,
-        "ma20": 46,
-        "ma50": 47
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:FTSE 100",
-          "name": "FTSE 100",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 64,
-          "cotScore": null,
-          "priceScore": 70,
-          "macroScore": 60,
-          "psi": null,
-          "timing": "+0.99% · Above 20D",
-          "reason": "Price 78/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 64,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "FTSE ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 47,
-            "momentum5": 1,
-            "above20": true,
-            "above50": true,
-            "ma20": 46,
-            "ma50": 47
-          },
-          "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Europe equity blend: rates + energy + global risk tone"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:ASX 200",
-      "name": "ASX 200",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 62,
-      "cotScore": null,
-      "priceScore": 64,
-      "macroScore": 57,
-      "psi": null,
-      "timing": "-0.10% · Above 20D",
-      "reason": "Price 72/100 + Macro 57/100 aligned bullish · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "Australia ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 29,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 28,
-        "ma50": 29
-      },
-      "macro": {
-        "score": 57,
-        "bias": "Macro Mixed",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Australia equity blend: risk tone with moderate commodity pressure"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:ASX 200",
-          "name": "ASX 200",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 62,
-          "cotScore": null,
-          "priceScore": 64,
-          "macroScore": 57,
-          "psi": null,
-          "timing": "-0.10% · Above 20D",
-          "reason": "Price 72/100 + Macro 57/100 aligned bullish · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 62,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "Australia ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 29,
-            "momentum5": 0,
-            "above20": true,
-            "above50": true,
-            "ma20": 28,
-            "ma50": 29
-          },
-          "macro": {
-            "score": 57,
-            "bias": "Macro Mixed",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Australia equity blend: risk tone with moderate commodity pressure"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
       "asset": "GROUP:Energy:Crude Oil",
       "name": "Crude Oil",
       "category": "Energy",
@@ -1457,7 +1195,7 @@
       "macroScore": 46,
       "psi": null,
       "timing": "+4.26% · Above 20D",
-      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
       "referenceChain": "Crypto price-only + macro liquidity chain",
       "sourceType": "crypto_price_only",
       "cotApplicable": false,
@@ -1480,7 +1218,7 @@
         "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -1502,7 +1240,7 @@
           "macroScore": 46,
           "psi": null,
           "timing": "+4.26% · Above 20D",
-          "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+          "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
           "referenceChain": "Crypto price-only + macro liquidity chain",
           "sourceType": "crypto_price_only",
           "cotApplicable": false,
@@ -1525,7 +1263,94 @@
             "score": 46,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+            "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "CRYPTO:Ethereum",
+      "name": "Ethereum",
+      "category": "Crypto",
+      "signal": "WAIT",
+      "score": 70,
+      "cotScore": null,
+      "priceScore": 82,
+      "macroScore": 46,
+      "psi": null,
+      "timing": "+3.50% · Above 20D",
+      "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Crypto price-only + macro liquidity chain",
+      "sourceType": "crypto_price_only",
+      "cotApplicable": false,
+      "confidenceCap": 65,
+      "sourceQuality": {
+        "score": 32,
+        "tier": "D"
+      },
+      "price": {
+        "source": "ETH/USD crypto spot via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 1928,
+        "momentum5": 3,
+        "above20": true,
+        "above50": true,
+        "ma20": 1815,
+        "ma50": 1731
+      },
+      "macro": {
+        "score": 46,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+        "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "CRYPTO:Ethereum",
+          "name": "Ethereum",
+          "category": "Crypto",
+          "signal": "WAIT",
+          "score": 70,
+          "cotScore": null,
+          "priceScore": 82,
+          "macroScore": 46,
+          "psi": null,
+          "timing": "+3.50% · Above 20D",
+          "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Crypto price-only + macro liquidity chain",
+          "sourceType": "crypto_price_only",
+          "cotApplicable": false,
+          "confidenceCap": 65,
+          "sourceQuality": {
+            "score": 32,
+            "tier": "D"
+          },
+          "price": {
+            "source": "ETH/USD crypto spot via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 1928,
+            "momentum5": 3,
+            "above20": true,
+            "above50": true,
+            "ma20": 1815,
+            "ma50": 1731
+          },
+          "macro": {
+            "score": 46,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
             "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
           },
           "contractCount": 1,
@@ -1538,13 +1363,13 @@
       "name": "Hang Seng",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 71,
+      "score": 69,
       "cotScore": null,
       "priceScore": 80,
-      "macroScore": 50,
+      "macroScore": 46,
       "psi": null,
       "timing": "+2.91% · Above 20D",
-      "reason": "Price 88/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 88/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -1564,10 +1389,10 @@
         "ma50": 22
       },
       "macro": {
-        "score": 50,
+        "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -1583,13 +1408,13 @@
           "name": "Hang Seng",
           "category": "Indices",
           "signal": "WAIT",
-          "score": 71,
+          "score": 69,
           "cotScore": null,
           "priceScore": 80,
-          "macroScore": 50,
+          "macroScore": 46,
           "psi": null,
           "timing": "+2.91% · Above 20D",
-          "reason": "Price 88/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "reason": "Price 88/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
           "referenceChain": "Price-only + macro regime overlay with capped confidence",
           "sourceType": "price_only",
           "cotApplicable": false,
@@ -1609,11 +1434,185 @@
             "ma50": 22
           },
           "macro": {
+            "score": 46,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+            "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:FTSE 100",
+      "name": "FTSE 100",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.99% · Above 20D",
+      "reason": "Price 78/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "FTSE ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 47,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 46,
+        "ma50": 47
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:FTSE 100",
+          "name": "FTSE 100",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 70,
+          "macroScore": 50,
+          "psi": null,
+          "timing": "+0.99% · Above 20D",
+          "reason": "Price 78/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 64,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "FTSE ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 47,
+            "momentum5": 1,
+            "above20": true,
+            "above50": true,
+            "ma20": 46,
+            "ma50": 47
+          },
+          "macro": {
             "score": 50,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+            "model": "Europe equity blend: rates + energy + global risk tone"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:EuroStoxx 50",
+      "name": "EuroStoxx 50",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 64,
+      "cotScore": null,
+      "priceScore": 67,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.41% · Above 20D",
+      "reason": "Price 75/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "EuroStoxx ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 68,
+        "momentum5": 0,
+        "above20": true,
+        "above50": true,
+        "ma20": 68,
+        "ma50": 68
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:EuroStoxx 50",
+          "name": "EuroStoxx 50",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 64,
+          "cotScore": null,
+          "priceScore": 67,
+          "macroScore": 50,
+          "psi": null,
+          "timing": "+0.41% · Above 20D",
+          "reason": "Price 75/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 64,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "EuroStoxx ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 68,
+            "momentum5": 0,
+            "above20": true,
+            "above50": true,
+            "ma20": 68,
+            "ma50": 68
+          },
+          "macro": {
+            "score": 50,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+            "model": "Europe equity blend: rates + energy + global risk tone"
           },
           "contractCount": 1,
           "consensus": null
@@ -1882,267 +1881,6 @@
       ]
     },
     {
-      "asset": "PRICE:EuroStoxx 50",
-      "name": "EuroStoxx 50",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 67,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.41% · Above 20D",
-      "reason": "Price 75/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "EuroStoxx ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 68,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 68,
-        "ma50": 68
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:EuroStoxx 50",
-          "name": "EuroStoxx 50",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 64,
-          "cotScore": null,
-          "priceScore": 67,
-          "macroScore": 60,
-          "psi": null,
-          "timing": "+0.41% · Above 20D",
-          "reason": "Price 75/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 64,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "EuroStoxx ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 68,
-            "momentum5": 0,
-            "above20": true,
-            "above50": true,
-            "ma20": 68,
-            "ma50": 68
-          },
-          "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Europe equity blend: rates + energy + global risk tone"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:FTSE 100",
-      "name": "FTSE 100",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 70,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.99% · Above 20D",
-      "reason": "Price 78/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "FTSE ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 47,
-        "momentum5": 1,
-        "above20": true,
-        "above50": true,
-        "ma20": 46,
-        "ma50": 47
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:FTSE 100",
-          "name": "FTSE 100",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 64,
-          "cotScore": null,
-          "priceScore": 70,
-          "macroScore": 60,
-          "psi": null,
-          "timing": "+0.99% · Above 20D",
-          "reason": "Price 78/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 64,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "FTSE ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 47,
-            "momentum5": 1,
-            "above20": true,
-            "above50": true,
-            "ma20": 46,
-            "ma50": 47
-          },
-          "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Europe equity blend: rates + energy + global risk tone"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:ASX 200",
-      "name": "ASX 200",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 62,
-      "cotScore": null,
-      "priceScore": 64,
-      "macroScore": 57,
-      "psi": null,
-      "timing": "-0.10% · Above 20D",
-      "reason": "Price 72/100 + Macro 57/100 aligned bullish · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "Australia ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 29,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 28,
-        "ma50": 29
-      },
-      "macro": {
-        "score": 57,
-        "bias": "Macro Mixed",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Australia equity blend: risk tone with moderate commodity pressure"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "1 BUY / 0 SELL / 0 WAIT",
-        "agreement": 100,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:ASX 200",
-          "name": "ASX 200",
-          "category": "Indices",
-          "signal": "BUY",
-          "score": 62,
-          "cotScore": null,
-          "priceScore": 64,
-          "macroScore": 57,
-          "psi": null,
-          "timing": "-0.10% · Above 20D",
-          "reason": "Price 72/100 + Macro 57/100 aligned bullish · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 62,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "Australia ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 29,
-            "momentum5": 0,
-            "above20": true,
-            "above50": true,
-            "ma20": 28,
-            "ma50": 29
-          },
-          "macro": {
-            "score": 57,
-            "bias": "Macro Mixed",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Australia equity blend: risk tone with moderate commodity pressure"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
       "asset": "GROUP:Energy:Crude Oil",
       "name": "Crude Oil",
       "category": "Energy",
@@ -3039,7 +2777,7 @@
       "macroScore": 46,
       "psi": null,
       "timing": "+4.26% · Above 20D",
-      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
       "referenceChain": "Crypto price-only + macro liquidity chain",
       "sourceType": "crypto_price_only",
       "cotApplicable": false,
@@ -3062,7 +2800,7 @@
         "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -3084,7 +2822,7 @@
           "macroScore": 46,
           "psi": null,
           "timing": "+4.26% · Above 20D",
-          "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+          "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
           "referenceChain": "Crypto price-only + macro liquidity chain",
           "sourceType": "crypto_price_only",
           "cotApplicable": false,
@@ -3107,95 +2845,8 @@
             "score": 46,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
             "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-          },
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:Hang Seng",
-      "name": "Hang Seng",
-      "category": "Indices",
-      "signal": "WAIT",
-      "score": 71,
-      "cotScore": null,
-      "priceScore": 80,
-      "macroScore": 50,
-      "psi": null,
-      "timing": "+2.91% · Above 20D",
-      "reason": "Price 88/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "Hong Kong ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 22,
-        "momentum5": 3,
-        "above20": true,
-        "above50": true,
-        "ma20": 21,
-        "ma50": 22
-      },
-      "macro": {
-        "score": 50,
-        "bias": "Macro Mixed",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 0 SELL / 1 WAIT",
-        "agreement": 0,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:Hang Seng",
-          "name": "Hang Seng",
-          "category": "Indices",
-          "signal": "WAIT",
-          "score": 71,
-          "cotScore": null,
-          "priceScore": 80,
-          "macroScore": 50,
-          "psi": null,
-          "timing": "+2.91% · Above 20D",
-          "reason": "Price 88/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 62,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "Hong Kong ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 22,
-            "momentum5": 3,
-            "above20": true,
-            "above50": true,
-            "ma20": 21,
-            "ma50": 22
-          },
-          "macro": {
-            "score": 50,
-            "bias": "Macro Mixed",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
           },
           "contractCount": 1,
           "consensus": null
@@ -3213,7 +2864,7 @@
       "macroScore": 46,
       "psi": null,
       "timing": "+3.50% · Above 20D",
-      "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
       "referenceChain": "Crypto price-only + macro liquidity chain",
       "sourceType": "crypto_price_only",
       "cotApplicable": false,
@@ -3236,7 +2887,7 @@
         "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -3258,7 +2909,7 @@
           "macroScore": 46,
           "psi": null,
           "timing": "+3.50% · Above 20D",
-          "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+          "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
           "referenceChain": "Crypto price-only + macro liquidity chain",
           "sourceType": "crypto_price_only",
           "cotApplicable": false,
@@ -3281,8 +2932,356 @@
             "score": 46,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
             "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:Hang Seng",
+      "name": "Hang Seng",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 69,
+      "cotScore": null,
+      "priceScore": 80,
+      "macroScore": 46,
+      "psi": null,
+      "timing": "+2.91% · Above 20D",
+      "reason": "Price 88/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 62,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "Hong Kong ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 22,
+        "momentum5": 3,
+        "above20": true,
+        "above50": true,
+        "ma20": 21,
+        "ma50": 22
+      },
+      "macro": {
+        "score": 46,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+        "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:Hang Seng",
+          "name": "Hang Seng",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 69,
+          "cotScore": null,
+          "priceScore": 80,
+          "macroScore": 46,
+          "psi": null,
+          "timing": "+2.91% · Above 20D",
+          "reason": "Price 88/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 62,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "Hong Kong ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 22,
+            "momentum5": 3,
+            "above20": true,
+            "above50": true,
+            "ma20": 21,
+            "ma50": 22
+          },
+          "macro": {
+            "score": 46,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+            "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:FTSE 100",
+      "name": "FTSE 100",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.99% · Above 20D",
+      "reason": "Price 78/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "FTSE ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 47,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 46,
+        "ma50": 47
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:FTSE 100",
+          "name": "FTSE 100",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 65,
+          "cotScore": null,
+          "priceScore": 70,
+          "macroScore": 50,
+          "psi": null,
+          "timing": "+0.99% · Above 20D",
+          "reason": "Price 78/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 64,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "FTSE ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 47,
+            "momentum5": 1,
+            "above20": true,
+            "above50": true,
+            "ma20": 46,
+            "ma50": 47
+          },
+          "macro": {
+            "score": 50,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+            "model": "Europe equity blend: rates + energy + global risk tone"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:EuroStoxx 50",
+      "name": "EuroStoxx 50",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 64,
+      "cotScore": null,
+      "priceScore": 67,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.41% · Above 20D",
+      "reason": "Price 75/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "EuroStoxx ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 68,
+        "momentum5": 0,
+        "above20": true,
+        "above50": true,
+        "ma20": 68,
+        "ma50": 68
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:EuroStoxx 50",
+          "name": "EuroStoxx 50",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 64,
+          "cotScore": null,
+          "priceScore": 67,
+          "macroScore": 50,
+          "psi": null,
+          "timing": "+0.41% · Above 20D",
+          "reason": "Price 75/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 64,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "EuroStoxx ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 68,
+            "momentum5": 0,
+            "above20": true,
+            "above50": true,
+            "ma20": 68,
+            "ma50": 68
+          },
+          "macro": {
+            "score": 50,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+            "model": "Europe equity blend: rates + energy + global risk tone"
+          },
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:ASX 200",
+      "name": "ASX 200",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 63,
+      "cotScore": null,
+      "priceScore": 64,
+      "macroScore": 51,
+      "psi": null,
+      "timing": "-0.10% · Above 20D",
+      "reason": "Price 72/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 62,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "Australia ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 29,
+        "momentum5": 0,
+        "above20": true,
+        "above50": true,
+        "ma20": 28,
+        "ma50": 29
+      },
+      "macro": {
+        "score": 51,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation.",
+        "model": "Australia equity blend: risk tone with moderate commodity pressure"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:ASX 200",
+          "name": "ASX 200",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 63,
+          "cotScore": null,
+          "priceScore": 64,
+          "macroScore": 51,
+          "psi": null,
+          "timing": "-0.10% · Above 20D",
+          "reason": "Price 72/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 62,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "Australia ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 29,
+            "momentum5": 0,
+            "above20": true,
+            "above50": true,
+            "ma20": 28,
+            "ma50": 29
+          },
+          "macro": {
+            "score": 51,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation.",
+            "model": "Australia equity blend: risk tone with moderate commodity pressure"
           },
           "contractCount": 1,
           "consensus": null
@@ -3294,13 +3293,13 @@
       "name": "MSCI World",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 64,
+      "score": 62,
       "cotScore": null,
       "priceScore": 63,
-      "macroScore": 55,
+      "macroScore": 51,
       "psi": null,
       "timing": "-0.42% · Above 20D",
-      "reason": "Price 71/100 · Macro 55/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 71/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -3320,10 +3319,10 @@
         "ma50": 202
       },
       "macro": {
-        "score": 55,
+        "score": 51,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation.",
         "model": "Global equity blend: rates relief + risk breadth"
       },
       "contractCount": 1,
@@ -3339,13 +3338,13 @@
           "name": "MSCI World",
           "category": "Indices",
           "signal": "WAIT",
-          "score": 64,
+          "score": 62,
           "cotScore": null,
           "priceScore": 63,
-          "macroScore": 55,
+          "macroScore": 51,
           "psi": null,
           "timing": "-0.42% · Above 20D",
-          "reason": "Price 71/100 · Macro 55/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "reason": "Price 71/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
           "referenceChain": "Price-only + macro regime overlay with capped confidence",
           "sourceType": "price_only",
           "cotApplicable": false,
@@ -3365,10 +3364,10 @@
             "ma50": 202
           },
           "macro": {
-            "score": 55,
+            "score": 51,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation.",
             "model": "Global equity blend: rates relief + risk breadth"
           },
           "contractCount": 1,
@@ -3480,93 +3479,6 @@
             "ma50": 93
           },
           "macro": null,
-          "contractCount": 1,
-          "consensus": null
-        }
-      ]
-    },
-    {
-      "asset": "PRICE:CAC 40",
-      "name": "CAC 40",
-      "category": "Indices",
-      "signal": "WAIT",
-      "score": 59,
-      "cotScore": null,
-      "priceScore": 67,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.33% · Above 20D",
-      "reason": "Price 59/100 · Macro 60/100 · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": {
-        "score": 29,
-        "tier": "D"
-      },
-      "price": {
-        "source": "France ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 45,
-        "momentum5": 0,
-        "above20": true,
-        "above50": false,
-        "ma20": 45,
-        "ma50": 45
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": {
-        "grouped": false,
-        "votes": "0 BUY / 0 SELL / 1 WAIT",
-        "agreement": 0,
-        "weightedScore": null
-      },
-      "components": [
-        {
-          "asset": "PRICE:CAC 40",
-          "name": "CAC 40",
-          "category": "Indices",
-          "signal": "WAIT",
-          "score": 59,
-          "cotScore": null,
-          "priceScore": 67,
-          "macroScore": 60,
-          "psi": null,
-          "timing": "+0.33% · Above 20D",
-          "reason": "Price 59/100 · Macro 60/100 · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-          "referenceChain": "Price-only + macro regime overlay with capped confidence",
-          "sourceType": "price_only",
-          "cotApplicable": false,
-          "confidenceCap": 62,
-          "sourceQuality": {
-            "score": 29,
-            "tier": "D"
-          },
-          "price": {
-            "source": "France ETF proxy via Yahoo chart",
-            "date": "2026-07-21",
-            "close": 45,
-            "momentum5": 0,
-            "above20": true,
-            "above50": false,
-            "ma20": 45,
-            "ma50": 45
-          },
-          "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
-            "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-            "model": "Europe equity blend: rates + energy + global risk tone"
-          },
           "contractCount": 1,
           "consensus": null
         }
@@ -4030,6 +3942,93 @@
             "ma50": 719
           },
           "macro": null,
+          "contractCount": 1,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "asset": "PRICE:CAC 40",
+      "name": "CAC 40",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 55,
+      "cotScore": null,
+      "priceScore": 67,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.33% · Above 20D",
+      "reason": "Price 59/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 62,
+      "sourceQuality": {
+        "score": 29,
+        "tier": "D"
+      },
+      "price": {
+        "source": "France ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 45,
+        "momentum5": 0,
+        "above20": true,
+        "above50": false,
+        "ma20": 45,
+        "ma50": 45
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": {
+        "grouped": false,
+        "votes": "0 BUY / 0 SELL / 1 WAIT",
+        "agreement": 0,
+        "weightedScore": null
+      },
+      "components": [
+        {
+          "asset": "PRICE:CAC 40",
+          "name": "CAC 40",
+          "category": "Indices",
+          "signal": "WAIT",
+          "score": 55,
+          "cotScore": null,
+          "priceScore": 67,
+          "macroScore": 50,
+          "psi": null,
+          "timing": "+0.33% · Above 20D",
+          "reason": "Price 59/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "referenceChain": "Price-only + macro regime overlay with capped confidence",
+          "sourceType": "price_only",
+          "cotApplicable": false,
+          "confidenceCap": 62,
+          "sourceQuality": {
+            "score": 29,
+            "tier": "D"
+          },
+          "price": {
+            "source": "France ETF proxy via Yahoo chart",
+            "date": "2026-07-21",
+            "close": 45,
+            "momentum5": 0,
+            "above20": true,
+            "above50": false,
+            "ma20": 45,
+            "ma50": 45
+          },
+          "macro": {
+            "score": 50,
+            "bias": "Macro Mixed",
+            "regime": "Dollar Squeeze",
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+            "model": "Europe equity blend: rates + energy + global risk tone"
+          },
           "contractCount": 1,
           "consensus": null
         }
@@ -6319,13 +6318,13 @@
       "name": "DAX",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 42,
+      "score": 37,
       "cotScore": null,
       "priceScore": 34,
-      "macroScore": 60,
+      "macroScore": 50,
       "psi": null,
       "timing": "-0.14% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 26/100 · Macro 60/100 · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
+      "reason": "Price 26/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -6345,10 +6344,10 @@
         "ma50": 42
       },
       "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
+        "score": 50,
+        "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
         "model": "Europe equity blend: rates + energy + global risk tone"
       },
       "contractCount": 1,
@@ -6364,13 +6363,13 @@
           "name": "DAX",
           "category": "Indices",
           "signal": "WAIT",
-          "score": 42,
+          "score": 37,
           "cotScore": null,
           "priceScore": 34,
-          "macroScore": 60,
+          "macroScore": 50,
           "psi": null,
           "timing": "-0.14% · Below 20D",
-          "reason": "Bearish price conflicts with bullish macro · Price 26/100 · Macro 60/100 · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
+          "reason": "Price 26/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
           "referenceChain": "Price-only + macro regime overlay with capped confidence",
           "sourceType": "price_only",
           "cotApplicable": false,
@@ -6390,10 +6389,10 @@
             "ma50": 42
           },
           "macro": {
-            "score": 60,
-            "bias": "Macro Bullish",
+            "score": 50,
+            "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
             "model": "Europe equity blend: rates + energy + global risk tone"
           },
           "contractCount": 1,
@@ -6406,13 +6405,13 @@
       "name": "MSCI Emerging Markets",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 36,
+      "score": 34,
       "cotScore": null,
       "priceScore": 32,
-      "macroScore": 50,
+      "macroScore": 46,
       "psi": null,
       "timing": "-0.50% · Below 20D",
-      "reason": "Price 24/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 24/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -6432,10 +6431,10 @@
         "ma50": 67
       },
       "macro": {
-        "score": 50,
+        "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -6451,13 +6450,13 @@
           "name": "MSCI Emerging Markets",
           "category": "Indices",
           "signal": "WAIT",
-          "score": 36,
+          "score": 34,
           "cotScore": null,
           "priceScore": 32,
-          "macroScore": 50,
+          "macroScore": 46,
           "psi": null,
           "timing": "-0.50% · Below 20D",
-          "reason": "Price 24/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "reason": "Price 24/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
           "referenceChain": "Price-only + macro regime overlay with capped confidence",
           "sourceType": "price_only",
           "cotApplicable": false,
@@ -6477,10 +6476,10 @@
             "ma50": 67
           },
           "macro": {
-            "score": 50,
+            "score": 46,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
             "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
           },
           "contractCount": 1,
@@ -6493,13 +6492,13 @@
       "name": "CSI 300",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 34,
+      "score": 32,
       "cotScore": null,
       "priceScore": 29,
-      "macroScore": 50,
+      "macroScore": 46,
       "psi": null,
       "timing": "-1.27% · Below 20D",
-      "reason": "Price 21/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 21/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -6519,10 +6518,10 @@
         "ma50": 36
       },
       "macro": {
-        "score": 50,
+        "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -6538,13 +6537,13 @@
           "name": "CSI 300",
           "category": "Indices",
           "signal": "WAIT",
-          "score": 34,
+          "score": 32,
           "cotScore": null,
           "priceScore": 29,
-          "macroScore": 50,
+          "macroScore": 46,
           "psi": null,
           "timing": "-1.27% · Below 20D",
-          "reason": "Price 21/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+          "reason": "Price 21/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
           "referenceChain": "Price-only + macro regime overlay with capped confidence",
           "sourceType": "price_only",
           "cotApplicable": false,
@@ -6564,10 +6563,10 @@
             "ma50": 36
           },
           "macro": {
-            "score": 50,
+            "score": 46,
             "bias": "Macro Mixed",
             "regime": "Dollar Squeeze",
-            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+            "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
             "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
           },
           "contractCount": 1,
@@ -6791,117 +6790,6 @@
         "ma50": 23
       },
       "macro": null,
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "PRICE:EuroStoxx 50",
-      "name": "EuroStoxx 50",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 67,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.41% · Above 20D",
-      "reason": "Price 75/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": null,
-      "price": {
-        "source": "EuroStoxx ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 68,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 68,
-        "ma50": 68
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "PRICE:FTSE 100",
-      "name": "FTSE 100",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 64,
-      "cotScore": null,
-      "priceScore": 70,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "+0.99% · Above 20D",
-      "reason": "Price 78/100 + Macro 60/100 aligned bullish · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": null,
-      "price": {
-        "source": "FTSE ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 47,
-        "momentum5": 1,
-        "above20": true,
-        "above50": true,
-        "ma20": 46,
-        "ma50": 47
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "PRICE:ASX 200",
-      "name": "ASX 200",
-      "category": "Indices",
-      "signal": "BUY",
-      "score": 62,
-      "cotScore": null,
-      "priceScore": 64,
-      "macroScore": 57,
-      "psi": null,
-      "timing": "-0.10% · Above 20D",
-      "reason": "Price 72/100 + Macro 57/100 aligned bullish · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": null,
-      "price": {
-        "source": "Australia ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 29,
-        "momentum5": 0,
-        "above20": true,
-        "above50": true,
-        "ma20": 28,
-        "ma50": 29
-      },
-      "macro": {
-        "score": 57,
-        "bias": "Macro Mixed",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Australia equity blend: risk tone with moderate commodity pressure"
-      },
       "contractCount": 1,
       "consensus": null
     },
@@ -7288,7 +7176,7 @@
       "macroScore": 46,
       "psi": null,
       "timing": "+4.26% · Above 20D",
-      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "reason": "Price 94/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
       "referenceChain": "Crypto price-only + macro liquidity chain",
       "sourceType": "crypto_price_only",
       "cotApplicable": false,
@@ -7308,45 +7196,8 @@
         "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
-      },
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
-      "asset": "PRICE:Hang Seng",
-      "name": "Hang Seng",
-      "category": "Indices",
-      "signal": "WAIT",
-      "score": 71,
-      "cotScore": null,
-      "priceScore": 80,
-      "macroScore": 50,
-      "psi": null,
-      "timing": "+2.91% · Above 20D",
-      "reason": "Price 88/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 62,
-      "sourceQuality": null,
-      "price": {
-        "source": "Hong Kong ETF proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 22,
-        "momentum5": 3,
-        "above20": true,
-        "above50": true,
-        "ma20": 21,
-        "ma50": 22
-      },
-      "macro": {
-        "score": 50,
-        "bias": "Macro Mixed",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
       "consensus": null
@@ -7362,7 +7213,7 @@
       "macroScore": 46,
       "psi": null,
       "timing": "+3.50% · Above 20D",
-      "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
+      "reason": "Price 90/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No classic Commercial COT structure is available for spot crypto in this scanner. · Macro Mixed · COT: not applicable",
       "referenceChain": "Crypto price-only + macro liquidity chain",
       "sourceType": "crypto_price_only",
       "cotApplicable": false,
@@ -7382,8 +7233,156 @@
         "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Crypto liquidity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "Crypto liquidity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "PRICE:Hang Seng",
+      "name": "Hang Seng",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 69,
+      "cotScore": null,
+      "priceScore": 80,
+      "macroScore": 46,
+      "psi": null,
+      "timing": "+2.91% · Above 20D",
+      "reason": "Price 88/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 62,
+      "sourceQuality": null,
+      "price": {
+        "source": "Hong Kong ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 22,
+        "momentum5": 3,
+        "above20": true,
+        "above50": true,
+        "ma20": 21,
+        "ma50": 22
+      },
+      "macro": {
+        "score": 46,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
+        "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "PRICE:FTSE 100",
+      "name": "FTSE 100",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 65,
+      "cotScore": null,
+      "priceScore": 70,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.99% · Above 20D",
+      "reason": "Price 78/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": null,
+      "price": {
+        "source": "FTSE ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 47,
+        "momentum5": 1,
+        "above20": true,
+        "above50": true,
+        "ma20": 46,
+        "ma50": 47
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "PRICE:EuroStoxx 50",
+      "name": "EuroStoxx 50",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 64,
+      "cotScore": null,
+      "priceScore": 67,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "+0.41% · Above 20D",
+      "reason": "Price 75/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": null,
+      "price": {
+        "source": "EuroStoxx ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 68,
+        "momentum5": 0,
+        "above20": true,
+        "above50": true,
+        "ma20": 68,
+        "ma50": 68
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
+      "asset": "PRICE:ASX 200",
+      "name": "ASX 200",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 63,
+      "cotScore": null,
+      "priceScore": 64,
+      "macroScore": 51,
+      "psi": null,
+      "timing": "-0.10% · Above 20D",
+      "reason": "Price 72/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 62,
+      "sourceQuality": null,
+      "price": {
+        "source": "Australia ETF proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 29,
+        "momentum5": 0,
+        "above20": true,
+        "above50": true,
+        "ma20": 28,
+        "ma50": 29
+      },
+      "macro": {
+        "score": 51,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Australia equity blend: risk tone with moderate commodity pressure. USD pressure high · Risk-on confirmation.",
+        "model": "Australia equity blend: risk tone with moderate commodity pressure"
       },
       "contractCount": 1,
       "consensus": null
@@ -7393,13 +7392,13 @@
       "name": "MSCI World",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 64,
+      "score": 62,
       "cotScore": null,
       "priceScore": 63,
-      "macroScore": 55,
+      "macroScore": 51,
       "psi": null,
       "timing": "-0.42% · Above 20D",
-      "reason": "Price 71/100 · Macro 55/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 71/100 · Macro 51/100 · Dollar Squeeze · Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -7416,10 +7415,10 @@
         "ma50": 202
       },
       "macro": {
-        "score": 55,
+        "score": 51,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Global equity blend: rates relief + risk breadth. USD pressure high · Risk-on confirmation.",
         "model": "Global equity blend: rates relief + risk breadth"
       },
       "contractCount": 1,
@@ -7430,13 +7429,13 @@
       "name": "CAC 40",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 59,
+      "score": 55,
       "cotScore": null,
       "priceScore": 67,
-      "macroScore": 60,
+      "macroScore": 50,
       "psi": null,
       "timing": "+0.33% · Above 20D",
-      "reason": "Price 59/100 · Macro 60/100 · Dollar Squeeze · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
+      "reason": "Price 59/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -7453,10 +7452,10 @@
         "ma50": 45
       },
       "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
+        "score": 50,
+        "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
         "model": "Europe equity blend: rates + energy + global risk tone"
       },
       "contractCount": 1,
@@ -8877,43 +8876,6 @@
       "consensus": null
     },
     {
-      "asset": "PRICE:DAX",
-      "name": "DAX",
-      "category": "Indices",
-      "signal": "WAIT",
-      "score": 42,
-      "cotScore": null,
-      "priceScore": 34,
-      "macroScore": 60,
-      "psi": null,
-      "timing": "-0.14% · Below 20D",
-      "reason": "Bearish price conflicts with bullish macro · Price 26/100 · Macro 60/100 · Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Bullish · COT: not applicable",
-      "referenceChain": "Price-only + macro regime overlay with capped confidence",
-      "sourceType": "price_only",
-      "cotApplicable": false,
-      "confidenceCap": 64,
-      "sourceQuality": null,
-      "price": {
-        "source": "DAX ETF / index proxy via Yahoo chart",
-        "date": "2026-07-21",
-        "close": 41,
-        "momentum5": 0,
-        "above20": false,
-        "above50": false,
-        "ma20": 41,
-        "ma50": 42
-      },
-      "macro": {
-        "score": 60,
-        "bias": "Macro Bullish",
-        "regime": "Dollar Squeeze",
-        "reason": "Macro Bullish: Europe equity blend: rates + energy + global risk tone. USD pressure high · Energy relief · Risk-on confirmation.",
-        "model": "Europe equity blend: rates + energy + global risk tone"
-      },
-      "contractCount": 1,
-      "consensus": null
-    },
-    {
       "asset": "E-MINI S&P CONSU STAPLES INDEX - CHICAGO MERCANTILE EXCHANGE",
       "name": "S&P 500",
       "category": "Indices",
@@ -9069,17 +9031,54 @@
       "consensus": null
     },
     {
+      "asset": "PRICE:DAX",
+      "name": "DAX",
+      "category": "Indices",
+      "signal": "WAIT",
+      "score": 37,
+      "cotScore": null,
+      "priceScore": 34,
+      "macroScore": 50,
+      "psi": null,
+      "timing": "-0.14% · Below 20D",
+      "reason": "Price 26/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "referenceChain": "Price-only + macro regime overlay with capped confidence",
+      "sourceType": "price_only",
+      "cotApplicable": false,
+      "confidenceCap": 64,
+      "sourceQuality": null,
+      "price": {
+        "source": "DAX ETF / index proxy via Yahoo chart",
+        "date": "2026-07-21",
+        "close": 41,
+        "momentum5": 0,
+        "above20": false,
+        "above50": false,
+        "ma20": 41,
+        "ma50": 42
+      },
+      "macro": {
+        "score": 50,
+        "bias": "Macro Mixed",
+        "regime": "Dollar Squeeze",
+        "reason": "Macro Mixed: Europe equity blend: rates + energy + global risk tone. USD pressure high · Risk-on confirmation.",
+        "model": "Europe equity blend: rates + energy + global risk tone"
+      },
+      "contractCount": 1,
+      "consensus": null
+    },
+    {
       "asset": "PRICE:MSCI Emerging Markets",
       "name": "MSCI Emerging Markets",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 36,
+      "score": 34,
       "cotScore": null,
       "priceScore": 32,
-      "macroScore": 50,
+      "macroScore": 46,
       "psi": null,
       "timing": "-0.50% · Below 20D",
-      "reason": "Price 24/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 24/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -9096,10 +9095,10 @@
         "ma50": 67
       },
       "macro": {
-        "score": 50,
+        "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
@@ -9110,13 +9109,13 @@
       "name": "CSI 300",
       "category": "Indices",
       "signal": "WAIT",
-      "score": 34,
+      "score": 32,
       "cotScore": null,
       "priceScore": 29,
-      "macroScore": 50,
+      "macroScore": 46,
       "psi": null,
       "timing": "-1.27% · Below 20D",
-      "reason": "Price 21/100 · Macro 50/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
+      "reason": "Price 21/100 · Macro 46/100 · Dollar Squeeze · Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation. · No direct COT source is mapped for this asset. · Macro Mixed · COT: not applicable",
       "referenceChain": "Price-only + macro regime overlay with capped confidence",
       "sourceType": "price_only",
       "cotApplicable": false,
@@ -9133,10 +9132,10 @@
         "ma50": 36
       },
       "macro": {
-        "score": 50,
+        "score": 46,
         "bias": "Macro Mixed",
         "regime": "Dollar Squeeze",
-        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Energy relief · Risk-on confirmation.",
+        "reason": "Macro Mixed: EM/Asia equity blend: USD relief + rates relief + risk-on. USD pressure high · Risk-on confirmation.",
         "model": "EM/Asia equity blend: USD relief + rates relief + risk-on"
       },
       "contractCount": 1,
